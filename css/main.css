@@ -1,13 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
+}
 
+div{
+    width: 100%;
+    position: relative;
+    animation: mymove 4s infinite;
+    text-align: center;
 }
 
 img{
-    width: 80%;
-    position: relative;
-    animation: mymove 4s infinite;
+    width: 100%;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 @keyframes mymove {
