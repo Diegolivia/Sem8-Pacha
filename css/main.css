@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+img{
+    width: 80%;
+    position: relative;
+    animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+    0% {top: 0px;}
+    50% {top: 400px;}
+    to {top: 0px;}
+  }
